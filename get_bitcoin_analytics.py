@@ -6,8 +6,8 @@ from email.message import EmailMessage
 from concurrent.futures import ThreadPoolExecutor
 
 # Configurazione email
-SMTP_SERVER = "smtp.gmail.com"
-SMTP_PORT = 587
+SMTP_SERVER = "" # Sostituisci con il tuo server SMTP (es. smtp.gmail.com se e' una email gmail)
+SMTP_PORT = 587  # Porta per TLS
 EMAIL_SENDER = ""  # Sostituisci con la tua email da cui inviare il report
 EMAIL_PASSWORD = ""  # Sostituisci con la password dell'account email da cui invii il report
 EMAIL_RECEIVER = ""  # Sostituisci con l'email a cui vuoi inviare il report
